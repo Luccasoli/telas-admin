@@ -1,0 +1,3 @@
+ng build --prod --base-href "https://luccasoli.github.io/telas-admin/"
+
+sudo ngh --dir dist/telas-admin

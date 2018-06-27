@@ -8,16 +8,14 @@
 
   <div class="collapse navbar-collapse" id="navbarColor03">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="lead nav-link" href="#">Home
-          <span class="sr-only">(current)</span>
-        </a>
+      <li class="nav-item">
+        <a class="lead nav-link" routerLink="/home" routerLinkActive="active">Home</a>
       </li>
       <li class="nav-item">
-        <a class="lead nav-link" href="#">Info</a>
+        <a class="lead nav-link" routerLink="/info">Informações</a>
       </li>
       <li class="nav-item">
-        <a class="lead nav-link" href="#">Salas</a>
+        <a class="lead nav-link" routerLink="/salas" >Salas</a>
       </li>
     </ul>
     <ul class="navbar-nav my-auto">
@@ -33,29 +31,4 @@
   </div>
 </nav>
 
-<div class="mx-auto container py-4">
-  <h1 class="display-4 text-center">Menu de Cadastro</h1>
-</div>
-
-<ul class="list-group">
-  <li class="my-2 lead text-center mx-auto w-50 list-group-item justify-content-between align-items-center">
-    <a class="" href="#">Cadastrar Administrador</a>
-  </li>
-  <li class="my-2 lead text-center mx-auto w-50 list-group-item justify-content-between align-items-center">
-    <a class="" href="#">Cadastrar Itens de Consumo</a>
-  </li>
-  <li class="my-2 lead text-center mx-auto w-50 list-group-item justify-content-between align-items-center">
-    <a class="" href="#">Cadastrar Itens de Serviço</a>
-  </li>
-  <li class="my-2 lead text-center mx-auto w-50 list-group-item justify-content-between align-items-center">
-    <a class="" href="#">Cadastrar Sala Exclusiva</a>
-    <li class="my-2 lead text-center mx-auto w-50 list-group-item justify-content-between align-items-center">
-      <a class="" href="#">Cadastrar Sala de Reunião</a>
-    </li>
-    <li class="my-2 lead text-center mx-auto w-50 list-group-item justify-content-between align-items-center">
-      <a class="" href="#">Cadastrar Sala de Treinamento</a>
-    </li>
-    <li class="my-2 lead text-center mx-auto w-50 list-group-item justify-content-between align-items-center">
-      <a class="" href="#">Adicionar Plano</a>
-    </li>
-</ul>
+<router-outlet></router-outlet>
