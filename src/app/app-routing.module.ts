@@ -10,6 +10,8 @@ import { CadastrarPlanoComponent } from './cadastrar-plano/cadastrar-plano.compo
 import { CadastrarSalaDeReuniaoComponent } from './cadastrar-sala-de-reuniao/cadastrar-sala-de-reuniao.component';
 import { CadastrarSalaDeTreinamentoComponent } from './cadastrar-sala-de-treinamento/cadastrar-sala-de-treinamento.component';
 import { CadastrarSalaExclusivaComponent } from './cadastrar-sala-exclusiva/cadastrar-sala-exclusiva.component';
+import { ListarItensDeConsumoComponent } from './listar-itens-de-consumo/listar-itens-de-consumo.component';
+import { ListarItensDeServicoComponent } from './listar-itens-de-servico/listar-itens-de-servico.component';
 
 const routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -23,6 +25,8 @@ const routes = [
   {path: 'home/cadastrar-sala-de-reuniao', component: CadastrarSalaDeReuniaoComponent},
   {path: 'home/cadastrar-sala-de-treinamento', component: CadastrarSalaDeTreinamentoComponent},
   {path: 'home/cadastrar-sala-exclusiva', component: CadastrarSalaExclusivaComponent},
+  {path: 'home/cadastrar-itens-de-consumo/listar-itens-de-consumo', component: ListarItensDeConsumoComponent},
+  {path: 'home/cadastrar-itens-de-servico/listar-itens-de-servico', component: ListarItensDeServicoComponent},
 ];
 
 @NgModule({
@@ -34,4 +38,10 @@ const routes = [
   ]
 })
 export class AppRoutingModule { }
-export const routingComponents = [SalasComponent, CadastroComponent, InfoComponent, CadastrarAdministradorComponent];
+export const routingComponents = [
+  SalasComponent,
+  CadastroComponent,
+  InfoComponent,
+  CadastrarAdministradorComponent,
+  ListarItensDeConsumoComponent,
+];

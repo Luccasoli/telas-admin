@@ -10,6 +10,8 @@ import { CadastrarSalaExclusivaComponent } from './cadastrar-sala-exclusiva/cada
 import { CadastrarSalaDeReuniaoComponent } from './cadastrar-sala-de-reuniao/cadastrar-sala-de-reuniao.component';
 import { CadastrarSalaDeTreinamentoComponent } from './cadastrar-sala-de-treinamento/cadastrar-sala-de-treinamento.component';
 import { CadastrarPlanoComponent } from './cadastrar-plano/cadastrar-plano.component';
+import { ListarItensDeConsumoComponent } from './listar-itens-de-consumo/listar-itens-de-consumo.component';
+import { ListarItensDeServicoComponent } from './listar-itens-de-servico/listar-itens-de-servico.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { CadastrarPlanoComponent } from './cadastrar-plano/cadastrar-plano.compo
     CadastrarSalaExclusivaComponent,
     CadastrarSalaDeReuniaoComponent,
     CadastrarSalaDeTreinamentoComponent,
-    CadastrarPlanoComponent
+    CadastrarPlanoComponent,
+    ListarItensDeConsumoComponent,
+    ListarItensDeServicoComponent
   ],
   imports: [
     BrowserModule,
