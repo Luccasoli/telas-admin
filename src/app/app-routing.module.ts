@@ -27,7 +27,7 @@ const routes = [
   {path: 'home/cadastrar-sala-exclusiva', component: CadastrarSalaExclusivaComponent},
   {path: 'home/cadastrar-itens-de-consumo/listar-itens-de-consumo', component: ListarItensDeConsumoComponent},
   {path: 'home/cadastrar-itens-de-servico/listar-itens-de-servico', component: ListarItensDeServicoComponent},
-  { path: '**', redirectTo: '/home' },
+  { path: '**', redirectTo: '/home', pathMatch: 'full' },
 ];
 
 @NgModule({
